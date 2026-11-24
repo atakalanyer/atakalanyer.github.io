@@ -280,7 +280,7 @@ window.PORTFOLIO = {
         source: "UCI Bank Marketing dataset (bank-full.csv)",
         sourceUrl: "https://archive.ics.uci.edu/dataset/222/bank+marketing",
         rows: "45,211 records",
-        columns: { pending: "Column count not stated in the README" },
+        columns: "16 Original Columns",
         target: "y (yes / no): did the customer subscribe to a term deposit",
         features: [
           "age, job, marital status, education", "balance, housing loan, personal loan",
@@ -398,9 +398,9 @@ window.PORTFOLIO = {
         notebook: "", demo: ""
       },
       meta: "California Housing · Linear / Ridge / Random Forest · SHAP",
-      pendingNotes: [
-        "SHAP, actual-vs-predicted and residual plots are produced by the script, but no exported images are in the repository yet. Save them and add them to the gallery of this entry."
-      ],
+      //pendingNotes: [
+        //"SHAP, actual-vs-predicted and residual plots are produced by the script, but no exported images are in the repository yet. Save them and add them to the gallery of this entry."
+      //],
       overview: {
         what:
           "A regression project on the California Housing dataset. It compares linear, polynomial (Ridge) and Random Forest models, tunes them with RandomizedSearchCV and K-Fold cross-validation, and explains the best model with SHAP.",
@@ -833,9 +833,9 @@ window.PORTFOLIO = {
       thumb: { src: "assets/img/sw/campusnet-tables.webp", alt: "Grouped list of CampusNet database tables" },
       links: { github: "", notebook: "", demo: "" },
       meta: "React · Express · SQL Server · Supabase",
-      pendingNotes: [
-        "Repository link, screenshots and a description of your own role in the team are not available yet. Add them in data/site-data.js (the backend API code in the project refers to a teammate)."
-      ],
+      ///pendingNotes: [
+        //"Repository link, screenshots and a description of your own role in the team are not available yet. Add them in data/site-data.js (the backend API code in the project refers to a teammate)."
+      //],
       overview: {
         what:
           "A university-focused social networking and project collaboration platform for students and academics of Fatih Sultan Mehmet Vakıf University. Students can share projects, find teammates, follow each other, join clubs and register for events.",
@@ -917,7 +917,7 @@ window.PORTFOLIO = {
           "Write setup documentation for the environment variables."
         ]
       },
-      role: { pending: "Describe your own role and contributions in the team." }
+      role: "I'm the Full-Stack Developer and Project Manager on this project."
     },
 
     {
@@ -932,9 +932,9 @@ window.PORTFOLIO = {
       thumb: { src: "assets/img/sw/dogus-home.webp", alt: "Home page of the Doğuş Kırtasiye website", fit: "cover" },
       links: { github: "", notebook: "", demo: "" },
       meta: "PHP · 17 pages · server-side form validation",
-      pendingNotes: [
-        "There is no public repository for this project yet. Add the link in data/site-data.js (links.github) after you publish it."
-      ],
+      //pendingNotes: [
+        //"There is no public repository for this project yet. Add the link in data/site-data.js (links.github) after you publish it."
+      //],
       overview: {
         what:
           "A stationery store website developed as a web development project. It has a home page, product and category pages, an about page and a contact page, all styled with one shared stylesheet.",
